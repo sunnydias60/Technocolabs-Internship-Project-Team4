@@ -1,0 +1,22 @@
+body{
+background-image: url("../../Images/Online-Exam-Portal.jpeg");
+  background-size: cover;
+
+}
+img{  position: fixed;
+        background-color:white;
+}
+#dev{
+    margin-top: 20%;
+    margin-left: 45%;
+  font-size: 34px;
+  border: none;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dev1{
+    margin-top: 20%;
+ font-size: 34px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ border: none;
+}

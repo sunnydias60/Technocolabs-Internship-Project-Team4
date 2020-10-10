@@ -1,0 +1,283 @@
+.left_side .button{
+  background-color: #01579B;
+  margin-left: 7px;
+  margin-top: 10px;
+}
+
+
+.left_side {
+    float:left;
+    background: #039BE5;
+    width:10%;
+    height:864px;
+}
+.left_side button:hover{
+      background-color: red;
+    }
+
+button.finish_button{
+  background-color: #01579B;
+}
+button.finish_button:hover{
+  background-color: red;
+}
+#middle_side{
+    float:left;
+    background-color:#E1F5FE;
+    overflow-y: scroll;
+    width:70%;
+    height:864px;
+}
+#right_side{
+    float:right;
+    background: #039BE5;
+    width:20%;
+    height:864px;
+}
+
+ /* timer styles */
+
+ #countdown{
+  font-weight: bold;
+  color: red;
+  margin-left: 10px;
+
+}
+#timer{
+
+}
+.Time{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: right;
+  font-weight: bold;
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+
+body.body {
+  background-color: #FFF5EE;
+}
+.timeup{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #800000;
+
+}
+
+
+/* compiler styles */
+#compilerSection{
+  /* font-size: xx-large; */
+  font-weight: bold;
+}
+
+ .area{
+  /* overflow-y: scroll; */
+  margin-left: 30px;
+
+}
+.area2{
+  margin-left: 30px;
+}
+.note{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.enter{
+   margin-top: 30px;
+}
+
+.sub{
+  margin-left: 83%;
+
+}
+/* #mcq_navigator {
+    background:plum;
+    width: 270px;
+    height: 400px;
+
+} */
+
+a {
+
+  margin: 7px;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #4747d1;
+
+  /* border: none; */
+  /* border-radius: 10px; */
+}
+
+ button {
+    margin: 3px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:#01579B;
+    border: none;
+    border-radius: 10px;
+  }
+
+  button:hover {background-color:red}
+
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
+
+  .whole{
+    position: absolute ;
+    top: 220px;
+    width: 300px;
+    height: 350px;
+    overflow-y: scroll;
+
+
+  }
+  .queries{
+    padding-top: 22%;
+    padding-left: 27%;
+
+  }
+  .tes{
+    margin-left:1px;
+
+    margin-bottom: 1px;
+    /* margin-right: 10px; */
+  }
+  /* .tesa{
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+  .tesp{
+    margin-left:5px;
+    margin-right: 8px;
+    margin-bottom: 0;
+  } */
+  li{
+    padding: 5px;
+  }
+  a:hover{
+    cursor: pointer;
+
+  }
+  /* #mid{
+  text-align: center;
+  } */
+  .ques,.inp,.out{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .questionpara{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .op{
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+
+  .nex{
+    padding: 5px;
+    margin-left:900px;
+    margin-top: 290px;
+  }
+  .sav{
+    padding: 2px;
+    margin-left: 800px;
+    margin-bottom: 90px;
+  }
+  .page-link{
+
+    background: #01579B;
+    color: white;
+  }
+  .page-link:hover{
+    background:red;
+    color: white;
+  }
+
+  /* finish buttin */
+
+  .finish_button{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  /* footer queries */
+
+  .footer{
+    text-align: center;
+    font-weight: 500;
+
+  }
+
+  /* welcome page */
+
+  .part{
+    background-image: url("tech.jpg");
+  background-position: absolute;
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.7;
+
+}
+.about{
+    font-style: italic;
+    font-size: medium;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+a:hover{
+    color:black;
+}
+img{
+    width: max-content;
+    height: max-content;
+}
+.imagetext{
+   position: absolute;
+    font-size: xx-large;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+footer{
+    text-align: center;
+    font-style: inherit;
+
+}
+
+.logo{
+    margin-left: 1000px;
+}
+
+.page-link{
+  border-radius: 50%;
+}
+
+/* 1300 200 */
+.jot{
+  text-align: center;
+  color:#1A237E;
+
+  line-height: 2;
+}

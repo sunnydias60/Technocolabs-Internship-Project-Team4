@@ -1,0 +1,44 @@
+body{
+    background-image: url("../../Images/welcome.webp");
+    /* background-position: absolute; */
+    width: auto;
+    height: 100%;
+    background-size: cover;
+
+
+}
+.about{
+    font-style: italic;
+    font-size: medium;
+    margin-top: 10%;
+    margin-left: 5%;
+	color:white;
+}
+a:hover{
+    color:black;
+}
+h1{
+  color: white;
+}
+img{
+    width: max-content;
+    height: max-content;
+}
+.imagetext{
+   position: absolute;
+    font-size: xx-large;
+    margin-top: 10%;
+    margin-left: 5%;
+	color:white
+}
+footer{
+    margin-top:30%;
+    color: white;
+    text-align: center;
+    font-style: inherit;
+
+}
+
+.logo{
+    margin-left: 1000px;
+}
